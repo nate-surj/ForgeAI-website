@@ -162,7 +162,7 @@ const ImpactOrganizations = () => {
                   <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
                     Scale Sustainable Impact Through{' '}
                     <span className="text-gradient bg-gradient-to-r from-emerald-400 to-green-300 bg-clip-text text-transparent">
-                      Breakthrough Innovation
+                      Innovation
                     </span>
                   </h1>
                   <p className="text-xl text-white/80 mb-8 leading-relaxed">
