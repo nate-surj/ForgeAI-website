@@ -120,7 +120,7 @@ const Homepage = () => {
               >
                 <GlassCard className="p-8" tint="white" opacity="5" hoverEffect="glow">
                   <motion.h1 
-                    className="text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
+                    className="text-5xl lg:text-5xl font-bold text-white leading-tight mb-6"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
