@@ -33,7 +33,7 @@ const Homepage = () => {
       icon: <Brain className="h-6 w-6 text-white" />,
       title: 'AI-Powered Founder Intelligence',
       description: 'Transform ideas into insights with intelligent business model analysis',
-      image: 'https://images.pexels.com/photos/8438979/pexels-photo-8438979.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop'
+      image: "/assets/Founder_inteligence (1).png"
     },
     {
       icon: <Rocket className="h-6 w-6 text-white" />,
@@ -45,7 +45,7 @@ const Homepage = () => {
       icon: <BarChart3 className="h-6 w-6 text-white" />,
       title: 'Ecosystem Impact Intelligence',
       description: 'Unlock the power of connected innovation with real-time ecosystem analytics',
-      image: "/src/assets/Africa_network.png"
+      image: "/assets/Africa_network.png"
     }
   ];
 
@@ -120,7 +120,7 @@ const Homepage = () => {
               >
                 <GlassCard className="p-8" tint="white" opacity="5" hoverEffect="glow">
                   <motion.h1 
-                    className="text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
+                    className="text-5xl lg:text-5xl font-bold text-white leading-tight mb-6"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
@@ -183,7 +183,7 @@ const Homepage = () => {
                   hoverEffect="lift"
                 >
                   <img
-                    src="/src/assets/Ecosystem builders.png"
+                    src="/assets/Ecosystem builders.png"
                     alt="African innovation ecosystem builders collaborating with AI technology"
                     className="w-full rounded-lg opacity-80"
                   />
@@ -344,7 +344,7 @@ const Homepage = () => {
                     <img
                       src={feature.image}
                       alt={feature.title}
-                      className="w-full h-48 object-cover"
+                      className="w-full h-48 object-cover opacity-80"
                     />
                   </div>
                 </GlassCard>
