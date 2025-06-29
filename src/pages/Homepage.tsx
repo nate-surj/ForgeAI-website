@@ -344,7 +344,7 @@ const Homepage = () => {
                     <img
                       src={feature.image}
                       alt={feature.title}
-                      className="w-full h-48 object-cover opacity-85"
+                      className="w-full h-48 object-cover opacity-80"
                     />
                   </div>
                 </GlassCard>
