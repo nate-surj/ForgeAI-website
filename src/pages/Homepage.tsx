@@ -185,7 +185,7 @@ const Homepage = () => {
                   <img
                     src="/assets/Ecosystem builders.png"
                     alt="African innovation ecosystem builders collaborating with AI technology"
-                    className="w-full rounded-lg opacity-85"
+                    className="w-full rounded-lg opacity-70"
                   />
                 </GlassCard>
                 <GlassCard 
