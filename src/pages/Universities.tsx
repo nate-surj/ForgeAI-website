@@ -153,7 +153,7 @@ const Universities = () => {
                   <h1 className="text-5xl lg:text-5xl font-bold text-white leading-tight mb-6">
                     Transform Brilliant Minds Into{' '}
                     <span className="text-gradient bg-gradient-to-r from-yellow-400 to-amber-300 bg-clip-text text-transparent">
-                      Breakthrough Founders
+                      Impactful Founders
                     </span>
                   </h1>
                   <p className="text-xl text-white/80 mb-8 leading-relaxed">
