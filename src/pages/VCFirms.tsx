@@ -154,7 +154,7 @@ const VCFirms = () => {
                   hoverEffect="lift"
                 >
                   <img
-                    src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    src="https://unsplash.com/photos/two-person-handshaking-vWchRczcQwM"
                     alt="VC celebrating portfolio success with digital dashboard"
                     className="w-full rounded-lg"
                   />
