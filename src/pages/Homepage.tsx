@@ -45,7 +45,7 @@ const Homepage = () => {
       icon: <BarChart3 className="h-6 w-6 text-white" />,
       title: 'Ecosystem Impact Intelligence',
       description: 'Unlock the power of connected innovation with real-time ecosystem analytics',
-      src="/src/assets/Africa_network.png"
+      image: "/src/assets/Africa_network.png"
     }
   ];
 
