@@ -33,7 +33,7 @@ const Homepage = () => {
       icon: <Brain className="h-6 w-6 text-white" />,
       title: 'AI-Powered Founder Intelligence',
       description: 'Transform ideas into insights with intelligent business model analysis',
-      image: 'https://images.pexels.com/photos/8438979/pexels-photo-8438979.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop'
+      image: "/src/assets/Founder_inteligence (1).png"
     },
     {
       icon: <Rocket className="h-6 w-6 text-white" />,
