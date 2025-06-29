@@ -17,6 +17,19 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Scroll to top when location changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  const handleNavClick = () => {
+    setIsMenuOpen(false);
+    // Small delay to ensure the route change happens first
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+  };
+
   const navigation = [
     { name: 'Product', href: '/product' },
     { name: 'Solutions', href: '/solutions' },
@@ -42,7 +55,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group cursor-glow">
+          <Link to="/" className="flex items-center space-x-2 group cursor-glow" onClick={handleNavClick}>
             <motion.div 
               className="bg-gradient-to-r from-primary-600 to-electric-500 p-2 rounded-lg group-hover:scale-105 transition-transform glow-effect"
               whileHover={{ scale: 1.1, rotate: 5 }}
@@ -59,6 +72,7 @@ const Header = () => {
               <div key={item.name} className="relative group">
                 <Link
                   to={item.href}
+                  onClick={handleNavClick}
                   className={`text-sm font-medium transition-all duration-300 hover:text-electric-400 cursor-glow ${
                     location.pathname === item.href ? 'text-electric-400' : 'text-white/90'
                   }`}
@@ -72,6 +86,7 @@ const Header = () => {
                         <Link
                           key={dropdownItem.name}
                           to={dropdownItem.href}
+                          onClick={handleNavClick}
                           className="block px-4 py-2 text-sm text-white/80 hover:text-white hover:bg-white/10 transition-colors cursor-glow"
                         >
                           {dropdownItem.name}
@@ -115,7 +130,7 @@ const Header = () => {
                   <Link
                     to={item.href}
                     className="block text-sm font-medium text-white/90 hover:text-white transition-colors cursor-glow"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleNavClick}
                   >
                     {item.name}
                   </Link>
@@ -126,7 +141,7 @@ const Header = () => {
                           key={dropdownItem.name}
                           to={dropdownItem.href}
                           className="block text-sm text-white/70 hover:text-white transition-colors cursor-glow"
-                          onClick={() => setIsMenuOpen(false)}
+                          onClick={handleNavClick}
                         >
                           {dropdownItem.name}
                         </Link>

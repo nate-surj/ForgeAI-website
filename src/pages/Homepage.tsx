@@ -21,6 +21,13 @@ import AnimatedCounter from '../components/AnimatedCounter';
 import ParticleBackground from '../components/ParticleBackground';
 
 const Homepage = () => {
+  const handleNavClick = () => {
+    // Small delay to ensure the route change happens first
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+  };
+
   const features = [
     {
       icon: <Brain className="h-6 w-6 text-white" />,
@@ -374,7 +381,7 @@ const Homepage = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="group cursor-glow"
                 >
-                  <Link to={audience.href}>
+                  <Link to={audience.href} onClick={handleNavClick}>
                     <GlassCard 
                       className="p-6" 
                       tint="white" 
