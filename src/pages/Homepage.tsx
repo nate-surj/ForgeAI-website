@@ -176,8 +176,8 @@ const Homepage = () => {
                   hoverEffect="lift"
                 >
                   <img
-                    src="https://images.pexels.com/photos/590041/pexels-photo-590041.jpg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop"
-                    alt="ForgeAI Dashboard"
+                    src="/src/assets/Ecosystem builders.png"
+                    alt="African innovation ecosystem builders collaborating with AI technology"
                     className="w-full rounded-lg"
                   />
                 </GlassCard>
