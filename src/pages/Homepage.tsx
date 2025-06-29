@@ -33,7 +33,7 @@ const Homepage = () => {
       icon: <Brain className="h-6 w-6 text-white" />,
       title: 'AI-Powered Founder Intelligence',
       description: 'Transform ideas into insights with intelligent business model analysis',
-      image: "/public/assets/Founder_inteligence (1).png"
+      image: "/assets/Founder_inteligence (1).png"
     },
     {
       icon: <Rocket className="h-6 w-6 text-white" />,
@@ -45,7 +45,7 @@ const Homepage = () => {
       icon: <BarChart3 className="h-6 w-6 text-white" />,
       title: 'Ecosystem Impact Intelligence',
       description: 'Unlock the power of connected innovation with real-time ecosystem analytics',
-      image: "/public/assets/Africa_network.png"
+      image: "/assets/Africa_network.png"
     }
   ];
 
@@ -183,7 +183,7 @@ const Homepage = () => {
                   hoverEffect="lift"
                 >
                   <img
-                    src="/public/assets/Ecosystem builders.png"
+                    src="/assets/Ecosystem builders.png"
                     alt="African innovation ecosystem builders collaborating with AI technology"
                     className="w-full rounded-lg opacity-85"
                   />
