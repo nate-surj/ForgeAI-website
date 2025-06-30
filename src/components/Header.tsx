@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, Zap } from 'lucide-react';
 import Button from './Button';
+import Logo from '/assets/ForgeAI_Logo_2.svg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,13 +56,13 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group cursor-glow" onClick={handleNavClick}>
+          <Link to="/" className="flex items-center space-x-0 group cursor-glow" onClick={handleNavClick}>
             <motion.div 
-              className="bg-gradient-to-r from-primary-600 to-electric-500 p-2 rounded-lg group-hover:scale-105 transition-transform glow-effect"
+              className="h-12 w-12 overflow-hidden rounded-lg group-hover:scale-105 transition-transform glow-effect bg-transparent p-0 m-0 border-none"
               whileHover={{ scale: 1.1, rotate: 5 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Zap className="h-5 w-5 text-white" />
+              <img src={Logo} alt="ForgeAI Logo" className="h-full w-full object-cover p-0 m-0 border-none rounded-lg" />
             </motion.div>
             <span className="text-xl font-bold text-white">ForgeAI</span>
           </Link>

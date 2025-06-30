@@ -27,7 +27,7 @@ const Product = () => {
       icon: <Brain className="h-6 w-6 text-white" />,
       title: 'AI-Powered Founder Intelligence',
       description: 'Transform ideas into insights with intelligent business model analysis that reveals breakthrough potential instantly.',
-      image: 'https://images.pexels.com/photos/8438979/pexels-photo-8438979.jpeg?auto=compress&cs=tinysrgb&w=1000&h=600&fit=crop',
+      image: "/assets/Founder_inteligence (1).png",
       features: [
         'Instant breakthrough potential scoring',
         'Market opportunity intelligence',
@@ -253,7 +253,7 @@ const Product = () => {
                   </div>
                   <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
                     <GlassCard 
-                      className="p-6" 
+                      className="p-6 max-w-xl mx-auto flex items-center justify-center" 
                       tint="white" 
                       opacity="5" 
                       hoverEffect="lift"

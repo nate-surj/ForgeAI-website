@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Zap, Twitter, Linkedin, Github, Mail } from 'lucide-react';
 import GlassCard from './GlassCard';
+import Logo from '/assets/ForgeAI_Logo_2.svg';
 
 const Footer = () => {
   const footerLinks = {
@@ -50,9 +51,9 @@ const Footer = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <Link to="/" className="flex items-center space-x-2 mb-4 group cursor-glow">
-                <div className="bg-gradient-to-r from-primary-600 to-electric-500 p-2 rounded-lg group-hover:scale-105 transition-transform glow-effect">
-                  <Zap className="h-5 w-5 text-white" />
+              <Link to="/" className="flex items-center space-x-0 mb-4 group cursor-glow">
+                <div className="h-12 w-12 overflow-hidden rounded-lg group-hover:scale-105 transition-transform glow-effect bg-transparent p-0 m-0 border-none">
+                  <img src={Logo} alt="ForgeAI Logo" className="h-full w-full object-cover p-0 m-0 border-none rounded-lg" />
                 </div>
                 <span className="text-xl font-bold">ForgeAI</span>
               </Link>
