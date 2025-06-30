@@ -120,7 +120,7 @@ const VCFirms = () => {
                 transition={{ duration: 0.8 }}
               >
                 <GlassCard className="p-8" tint="white" opacity="5" hoverEffect="glow">
-                  <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                  <h1 className="text-5xl lg:text-5xl font-bold text-white leading-tight mb-6">
                     Amplify Every Investment Into{' '}
                     <span className="text-gradient bg-gradient-to-r from-warm-400 to-yellow-400 bg-clip-text text-transparent">
                       Extraordinary Outcomes
