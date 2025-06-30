@@ -39,13 +39,13 @@ const Homepage = () => {
       icon: <Rocket className="h-6 w-6 text-white" />,
       title: 'Innovation Journey Orchestration',
       description: 'Guide every founder from concept to scale with intelligent program management',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop'
+      image: "/assets/Innovation_Journey_Orchestration.png"
     },
     {
       icon: <BarChart3 className="h-6 w-6 text-white" />,
       title: 'Ecosystem Impact Intelligence',
       description: 'Unlock the power of connected innovation with real-time ecosystem analytics',
-      image: "/assets/Africa_network.png"
+      image: "/assets/Ecosystem_Impact_Intelligence.png"
     }
   ];
 

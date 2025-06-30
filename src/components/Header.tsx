@@ -80,7 +80,7 @@ const Header = () => {
                   {item.name}
                 </Link>
                 {item.dropdown && (
-                  <div className="absolute top-full left-0 mt-2 w-56 glass-card rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
+                  <div className="absolute top-full left-0 mt-2 w-56 dropdown-glass rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                     <div className="py-2">
                       {item.dropdown.map((dropdownItem) => (
                         <Link
